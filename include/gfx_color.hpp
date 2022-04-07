@@ -136,7 +136,8 @@ namespace gfx {
         constexpr static const PixelType slate_gray = convert<source_type,PixelType>(source_type(true,0.43921568627451,0.501960784313725,0.564705882352941));
         constexpr static const PixelType snow = convert<source_type,PixelType>(source_type(true,1,0.980392156862745,0.980392156862745));
         constexpr static const PixelType spring_green = convert<source_type,PixelType>(source_type(true,0,1,0.498039215686275));
-        constexpr static const PixelType steel_blue = convert<source_type,PixelType>(source_type(true,0.274509803921569,0.509803921568627,0.705882352941177));
+        // this is a double delcaration of steel_blue... ?!
+	//constexpr static const PixelType steel_blue = convert<source_type,PixelType>(source_type(true,0.274509803921569,0.509803921568627,0.705882352941177));
         constexpr static const PixelType tan = convert<source_type,PixelType>(source_type(true,0.823529411764706,0.705882352941177,0.549019607843137));
         constexpr static const PixelType teal = convert<source_type,PixelType>(source_type(true,0,0.501960784313725,0.501960784313725));
         constexpr static const PixelType thistle = convert<source_type,PixelType>(source_type(true,0.847058823529412,0.749019607843137,0.847058823529412));
